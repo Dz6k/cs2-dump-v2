@@ -4444,7 +4444,6 @@ CBasePlayerController.m_szNetworkIDString = findOffsetByName(j, "CBasePlayerCont
 CBasePlayerController.m_fLerpTime = findOffsetByName(j, "CBasePlayerController", "m_fLerpTime");
 CBasePlayerController.m_bLagCompensation = findOffsetByName(j, "CBasePlayerController", "m_bLagCompensation");
 CBasePlayerController.m_bPredict = findOffsetByName(j, "CBasePlayerController", "m_bPredict");
-CBasePlayerController.m_bAutoKickDisabled = findOffsetByName(j, "CBasePlayerController", "m_bAutoKickDisabled");
 CBasePlayerController.m_bIsLowViolence = findOffsetByName(j, "CBasePlayerController", "m_bIsLowViolence");
 CBasePlayerController.m_bGamePaused = findOffsetByName(j, "CBasePlayerController", "m_bGamePaused");
 CBasePlayerController.m_iIgnoreGlobalChat = findOffsetByName(j, "CBasePlayerController", "m_iIgnoreGlobalChat");
@@ -6636,6 +6635,7 @@ CCSPlayerController.m_bHasSeenJoinGame = findOffsetByName(j, "CCSPlayerControlle
 CCSPlayerController.m_bJustBecameSpectator = findOffsetByName(j, "CCSPlayerController", "m_bJustBecameSpectator");
 CCSPlayerController.m_bSwitchTeamsOnNextRoundReset = findOffsetByName(j, "CCSPlayerController", "m_bSwitchTeamsOnNextRoundReset");
 CCSPlayerController.m_bRemoveAllItemsOnNextRoundReset = findOffsetByName(j, "CCSPlayerController", "m_bRemoveAllItemsOnNextRoundReset");
+CCSPlayerController.m_flLastJoinTeamTime = findOffsetByName(j, "CCSPlayerController", "m_flLastJoinTeamTime");
 CCSPlayerController.m_szClanName = findOffsetByName(j, "CCSPlayerController", "m_szClanName");
 CCSPlayerController.m_DesiredObserverMode = findOffsetByName(j, "CCSPlayerController", "m_DesiredObserverMode");
 CCSPlayerController.m_hDesiredObserverTarget = findOffsetByName(j, "CCSPlayerController", "m_hDesiredObserverTarget");
@@ -14519,8 +14519,7 @@ CBaseCSGrenadeProjectile.m_flLastBounceSoundTime = findOffsetByName(j, "CBaseCSG
 CBaseCSGrenadeProjectile.m_vecGrenadeSpin = findOffsetByName(j, "CBaseCSGrenadeProjectile", "m_vecGrenadeSpin");
 CBaseCSGrenadeProjectile.m_vecLastHitSurfaceNormal = findOffsetByName(j, "CBaseCSGrenadeProjectile", "m_vecLastHitSurfaceNormal");
 CBaseCSGrenadeProjectile.m_nTicksAtZeroVelocity = findOffsetByName(j, "CBaseCSGrenadeProjectile", "m_nTicksAtZeroVelocity");
-CBaseCSGrenadeProjectile.m_bHasEverHitPlayer = findOffsetByName(j, "CBaseCSGrenadeProjectile", "m_bHasEverHitPlayer");
-CBaseCSGrenadeProjectile.m_bClearFromPlayers = findOffsetByName(j, "CBaseCSGrenadeProjectile", "m_bClearFromPlayers");
+CBaseCSGrenadeProjectile.m_bHasEverHitEnemy = findOffsetByName(j, "CBaseCSGrenadeProjectile", "m_bHasEverHitEnemy");
 
 // Atribuições para CCSPlace
 // CCSPlace Offsets

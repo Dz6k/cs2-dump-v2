@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-11-21 14:04:55.406917500 UTC
+// 2025-03-12 03:17:08.877032100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -2011,7 +2011,7 @@ pub mod cs2_dumper {
             // Field count: 2
             pub mod CTonemapTrigger {
                 pub const m_tonemapControllerName: usize = 0x960; // CUtlSymbolLarge
-                pub const m_hTonemapController: usize = 0x968; // CEntityHandle
+                pub const m_hTonemapController: usize = 0x968; // 
             }
             // Parent: None
             // Field count: 5
@@ -2217,7 +2217,7 @@ pub mod cs2_dumper {
             // NetworkVarNames: m_hOwner (CEntityHandle)
             // NetworkVarNames: m_name (CUtlStringToken)
             pub mod CGameSceneNodeHandle {
-                pub const m_hOwner: usize = 0x8; // CEntityHandle
+                pub const m_hOwner: usize = 0x8; // 
                 pub const m_name: usize = 0xC; // CUtlStringToken
             }
             // Parent: CCSWeaponBaseGun
@@ -2242,7 +2242,7 @@ pub mod cs2_dumper {
             // NetworkVarNames: m_bUrgent (bool)
             // NetworkVarNames: m_szPlaceName (char)
             pub mod CPlayerPing {
-                pub const m_hPlayer: usize = 0x4E8; // CHandle<CCSPlayerPawn>
+                pub const m_hPlayer: usize = 0x4E8; // 
                 pub const m_hPingedEntity: usize = 0x4EC; // CHandle<CBaseEntity>
                 pub const m_iType: usize = 0x4F0; // int32
                 pub const m_bUrgent: usize = 0x4F4; // bool
@@ -2522,8 +2522,8 @@ pub mod cs2_dumper {
                 pub const m_vStart: usize = 0x14; // Vector
                 pub const m_vNormal: usize = 0x20; // Vector
                 pub const m_vAngles: usize = 0x2C; // QAngle
-                pub const m_hEntity: usize = 0x38; // CEntityHandle
-                pub const m_hOtherEntity: usize = 0x3C; // CEntityHandle
+                pub const m_hEntity: usize = 0x38; // 
+                pub const m_hOtherEntity: usize = 0x3C; // 
                 pub const m_flScale: usize = 0x40; // float32
                 pub const m_flMagnitude: usize = 0x44; // float32
                 pub const m_flRadius: usize = 0x48; // float32
@@ -2583,7 +2583,7 @@ pub mod cs2_dumper {
                 pub const m_onSoundFinished: usize = 0x528; // CEntityIOOutput
                 pub const m_flClientCullRadius: usize = 0x550; // float32
                 pub const m_iszSoundName: usize = 0x580; // CUtlSymbolLarge
-                pub const m_hSource: usize = 0x590; // CEntityHandle
+                pub const m_hSource: usize = 0x590; // 
                 pub const m_nEntityIndexSelection: usize = 0x594; // int32
             }
             // Parent: CPlayer_ViewModelServices
@@ -2789,8 +2789,8 @@ pub mod cs2_dumper {
             // NetworkVarNames: m_OwningPlayer (CHandle<CCSPlayerPawn>)
             // NetworkVarNames: m_KillingPlayer (CHandle<CCSPlayerPawn>)
             pub mod CItemDogtags {
-                pub const m_OwningPlayer: usize = 0xA80; // CHandle<CCSPlayerPawn>
-                pub const m_KillingPlayer: usize = 0xA84; // CHandle<CCSPlayerPawn>
+                pub const m_OwningPlayer: usize = 0xA80; // 
+                pub const m_KillingPlayer: usize = 0xA84; // 
             }
             // Parent: CItem
             // Field count: 32
@@ -3561,7 +3561,7 @@ pub mod cs2_dumper {
             // NetworkVarNames: m_bUseAutoCompare (bool)
             pub mod CSoundOpvarSetPointBase {
                 pub const m_bDisabled: usize = 0x4E0; // bool
-                pub const m_hSource: usize = 0x4E4; // CEntityHandle
+                pub const m_hSource: usize = 0x4E4; // 
                 pub const m_iszSourceEntityName: usize = 0x4F0; // CUtlSymbolLarge
                 pub const m_vLastPosition: usize = 0x548; // Vector
                 pub const m_iszStackName: usize = 0x558; // CUtlSymbolLarge
@@ -3752,7 +3752,7 @@ pub mod cs2_dumper {
                 pub const m_bUnloadingStarted: usize = 0x5A5; // bool
             }
             // Parent: CBaseEntity
-            // Field count: 24
+            // Field count: 23
             //
             // Metadata:
             // MNetworkIncludeByName
@@ -3786,9 +3786,8 @@ pub mod cs2_dumper {
                 pub const m_fLerpTime: usize = 0x5D8; // float32
                 pub const m_bLagCompensation: usize = 0x5DC; // bool
                 pub const m_bPredict: usize = 0x5DD; // bool
-                pub const m_bAutoKickDisabled: usize = 0x5DE; // bool
-                pub const m_bIsLowViolence: usize = 0x5DF; // bool
-                pub const m_bGamePaused: usize = 0x5E0; // bool
+                pub const m_bIsLowViolence: usize = 0x5E4; // bool
+                pub const m_bGamePaused: usize = 0x5E5; // bool
                 pub const m_iIgnoreGlobalChat: usize = 0x720; // ChatIgnoreType_t
                 pub const m_flLastPlayerTalkTime: usize = 0x724; // float32
                 pub const m_flLastEntitySteadyState: usize = 0x728; // float32
@@ -3908,7 +3907,7 @@ pub mod cs2_dumper {
                 pub const m_flSeqStartTime: usize = 0x230; // GameTime_t
                 pub const m_flSeqFixedCycle: usize = 0x234; // float32
                 pub const m_nAnimLoopMode: usize = 0x238; // AnimLoopMode_t
-                pub const m_flPlaybackRate: usize = 0x23C; // CNetworkedQuantizedFloat
+                pub const m_flPlaybackRate: usize = 0x23C; // 
                 pub const m_nNotifyState: usize = 0x248; // SequenceFinishNotifyState_t
                 pub const m_bNetworkedAnimationInputsChanged: usize = 0x24A; // bool
                 pub const m_bNetworkedSequenceChanged: usize = 0x24B; // bool
@@ -4304,7 +4303,7 @@ pub mod cs2_dumper {
                 pub const m_sToolsOnlyOwnerModelName: usize = 0x108; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
                 pub const m_bBuiltRightHanded: usize = 0x1E8; // bool
                 pub const m_bAllowFlipping: usize = 0x1E9; // bool
-                pub const m_sMuzzleAttachment: usize = 0x1F0; // CAttachmentNameSymbolWithStorage
+                pub const m_sMuzzleAttachment: usize = 0x1F0; // 
                 pub const m_szMuzzleFlashParticle: usize = 0x210; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
                 pub const m_bLinkedCooldowns: usize = 0x2F0; // bool
                 pub const m_iFlags: usize = 0x2F1; // ItemFlagTypes_t
@@ -5154,7 +5153,7 @@ pub mod cs2_dumper {
                 pub const m_nVisibilitySamples: usize = 0x634; // int32
                 pub const m_vDynamicProxyPoint: usize = 0x638; // Vector
                 pub const m_flDynamicMaximumOcclusion: usize = 0x644; // float32
-                pub const m_hDynamicEntity: usize = 0x648; // CEntityHandle
+                pub const m_hDynamicEntity: usize = 0x648; // 
                 pub const m_iszDynamicEntityName: usize = 0x650; // CUtlSymbolLarge
                 pub const m_flPathingDistanceNormFactor: usize = 0x658; // float32
                 pub const m_vPathingSourcePos: usize = 0x65C; // Vector
@@ -5200,7 +5199,7 @@ pub mod cs2_dumper {
             pub mod CPlayer_ObserverServices {
                 pub const m_iObserverMode: usize = 0x40; // uint8
                 pub const m_hObserverTarget: usize = 0x44; // CHandle<CBaseEntity>
-                pub const m_iObserverLastMode: usize = 0x48; // ObserverMode_t
+                pub const m_iObserverLastMode: usize = 0x48; // 
                 pub const m_bForcedObserverMode: usize = 0x4C; // bool
             }
             // Parent: CCSWeaponBaseGun
@@ -5721,8 +5720,8 @@ pub mod cs2_dumper {
             // NetworkVarNames: m_bIsOtherEnemy (bool)
             // NetworkVarNames: m_killType (EKillTypes_t)
             pub mod CDamageRecord {
-                pub const m_PlayerDamager: usize = 0x28; // CHandle<CCSPlayerPawn>
-                pub const m_PlayerRecipient: usize = 0x2C; // CHandle<CCSPlayerPawn>
+                pub const m_PlayerDamager: usize = 0x28; // 
+                pub const m_PlayerRecipient: usize = 0x2C; // 
                 pub const m_hPlayerControllerDamager: usize = 0x30; // CHandle<CCSPlayerController>
                 pub const m_hPlayerControllerRecipient: usize = 0x34; // CHandle<CCSPlayerController>
                 pub const m_szPlayerDamagerName: usize = 0x38; // CUtlString
@@ -5983,7 +5982,7 @@ pub mod cs2_dumper {
                 pub const m_surpriseTimer: usize = 0x190; // CountdownTimer
                 pub const m_bAllowActive: usize = 0x1A8; // bool
                 pub const m_isFollowing: usize = 0x1A9; // bool
-                pub const m_leader: usize = 0x1AC; // CHandle<CCSPlayerPawn>
+                pub const m_leader: usize = 0x1AC; // 
                 pub const m_followTimestamp: usize = 0x1B0; // float32
                 pub const m_allowAutoFollowTime: usize = 0x1B4; // float32
                 pub const m_hurryTimer: usize = 0x1B8; // CountdownTimer
@@ -6062,7 +6061,7 @@ pub mod cs2_dumper {
                 pub const m_aimFocusInterval: usize = 0x60E8; // float32
                 pub const m_aimFocusNextUpdate: usize = 0x60EC; // GameTime_t
                 pub const m_ignoreEnemiesTimer: usize = 0x60F8; // CountdownTimer
-                pub const m_enemy: usize = 0x6110; // CHandle<CCSPlayerPawn>
+                pub const m_enemy: usize = 0x6110; // 
                 pub const m_isEnemyVisible: usize = 0x6114; // bool
                 pub const m_visibleEnemyParts: usize = 0x6115; // uint8
                 pub const m_lastEnemyPosition: usize = 0x6118; // Vector
@@ -6073,12 +6072,12 @@ pub mod cs2_dumper {
                 pub const m_friendDeathTimestamp: usize = 0x6134; // float32
                 pub const m_isLastEnemyDead: usize = 0x6138; // bool
                 pub const m_nearbyEnemyCount: usize = 0x613C; // int32
-                pub const m_bomber: usize = 0x6348; // CHandle<CCSPlayerPawn>
+                pub const m_bomber: usize = 0x6348; // 
                 pub const m_nearbyFriendCount: usize = 0x634C; // int32
-                pub const m_closestVisibleFriend: usize = 0x6350; // CHandle<CCSPlayerPawn>
-                pub const m_closestVisibleHumanFriend: usize = 0x6354; // CHandle<CCSPlayerPawn>
+                pub const m_closestVisibleFriend: usize = 0x6350; // 
+                pub const m_closestVisibleHumanFriend: usize = 0x6354; // 
                 pub const m_attentionInterval: usize = 0x6358; // IntervalTimer
-                pub const m_attacker: usize = 0x6368; // CHandle<CCSPlayerPawn>
+                pub const m_attacker: usize = 0x6368; // 
                 pub const m_attackedTimestamp: usize = 0x636C; // float32
                 pub const m_burnedByFlamesTimer: usize = 0x6370; // IntervalTimer
                 pub const m_lastVictimID: usize = 0x6380; // int32
@@ -6106,7 +6105,7 @@ pub mod cs2_dumper {
                 pub const m_lastOrigin: usize = 0x650C; // Vector
                 pub const m_lastRadioRecievedTimestamp: usize = 0x651C; // float32
                 pub const m_lastRadioSentTimestamp: usize = 0x6520; // float32
-                pub const m_radioSubject: usize = 0x6524; // CHandle<CCSPlayerPawn>
+                pub const m_radioSubject: usize = 0x6524; // 
                 pub const m_radioPosition: usize = 0x6528; // Vector
                 pub const m_voiceEndTimestamp: usize = 0x6534; // float32
                 pub const m_lastValidReactionQueueFrame: usize = 0x6540; // int32
@@ -6323,11 +6322,11 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CBasePlayerVData {
                 pub const m_sModelName: usize = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-                pub const m_flHeadDamageMultiplier: usize = 0x108; // CSkillFloat
-                pub const m_flChestDamageMultiplier: usize = 0x118; // CSkillFloat
-                pub const m_flStomachDamageMultiplier: usize = 0x128; // CSkillFloat
-                pub const m_flArmDamageMultiplier: usize = 0x138; // CSkillFloat
-                pub const m_flLegDamageMultiplier: usize = 0x148; // CSkillFloat
+                pub const m_flHeadDamageMultiplier: usize = 0x108; // 
+                pub const m_flChestDamageMultiplier: usize = 0x118; // 
+                pub const m_flStomachDamageMultiplier: usize = 0x128; // 
+                pub const m_flArmDamageMultiplier: usize = 0x138; // 
+                pub const m_flLegDamageMultiplier: usize = 0x148; // 
                 pub const m_flHoldBreathTime: usize = 0x158; // float32
                 pub const m_flDrowningDamageInterval: usize = 0x15C; // float32
                 pub const m_nDrowningDamageInitial: usize = 0x160; // int32
@@ -6573,7 +6572,7 @@ pub mod cs2_dumper {
                 pub const m_vecClientAngles: usize = 0x86C; // QAngle
             }
             // Parent: CBaseGrenade
-            // Field count: 17
+            // Field count: 16
             //
             // Metadata:
             // NetworkVarNames: m_vInitialPosition (Vector)
@@ -6598,8 +6597,7 @@ pub mod cs2_dumper {
                 pub const m_vecGrenadeSpin: usize = 0xB30; // RotationVector
                 pub const m_vecLastHitSurfaceNormal: usize = 0xB3C; // Vector
                 pub const m_nTicksAtZeroVelocity: usize = 0xB48; // int32
-                pub const m_bHasEverHitPlayer: usize = 0xB4C; // bool
-                pub const m_bClearFromPlayers: usize = 0xB4D; // bool
+                pub const m_bHasEverHitEnemy: usize = 0xB4C; // bool
             }
             // Parent: CServerOnlyModelEntity
             // Field count: 1
@@ -6868,7 +6866,7 @@ pub mod cs2_dumper {
             // Parent: CBaseModelEntity
             // Field count: 6
             pub mod CFuncBrush {
-                pub const m_iSolidity: usize = 0x790; // BrushSolidities_e
+                pub const m_iSolidity: usize = 0x790; // 
                 pub const m_iDisabled: usize = 0x794; // int32
                 pub const m_bSolidBsp: usize = 0x798; // bool
                 pub const m_iszExcludedClass: usize = 0x7A0; // CUtlSymbolLarge
@@ -6970,9 +6968,9 @@ pub mod cs2_dumper {
                 pub const m_flDamage: usize = 0xAA0; // float32
                 pub const m_iszBounceSound: usize = 0xAA8; // CUtlSymbolLarge
                 pub const m_ExplosionSound: usize = 0xAB0; // CUtlString
-                pub const m_hThrower: usize = 0xABC; // CHandle<CCSPlayerPawn>
+                pub const m_hThrower: usize = 0xABC; // 
                 pub const m_flNextAttack: usize = 0xAD4; // GameTime_t
-                pub const m_hOriginalThrower: usize = 0xAD8; // CHandle<CCSPlayerPawn>
+                pub const m_hOriginalThrower: usize = 0xAD8; // 
             }
             // Parent: CLogicalEntity
             // Field count: 13
@@ -7104,7 +7102,7 @@ pub mod cs2_dumper {
                 pub const m_nextOwnerTouchTime: usize = 0xEEC; // GameTime_t
                 pub const m_nextPrevOwnerTouchTime: usize = 0xEF0; // GameTime_t
                 pub const m_nextPrevOwnerUseTime: usize = 0xEF8; // GameTime_t
-                pub const m_hPrevOwner: usize = 0xEFC; // CHandle<CCSPlayerPawn>
+                pub const m_hPrevOwner: usize = 0xEFC; // 
                 pub const m_nDropTick: usize = 0xF00; // GameTick_t
                 pub const m_donated: usize = 0xF24; // bool
                 pub const m_fLastShotTime: usize = 0xF28; // GameTime_t
@@ -7444,7 +7442,7 @@ pub mod cs2_dumper {
                 pub const m_iszArriveAtDestinationSound: usize = 0x830; // CUtlSymbolLarge
                 pub const m_OnMovementEnd: usize = 0x840; // CEntityIOOutput
                 pub const m_bStartAtEnd: usize = 0x868; // bool
-                pub const m_eOrientationUpdate: usize = 0x86C; // CFuncMover::OrientationUpdate_t
+                pub const m_eOrientationUpdate: usize = 0x86C; // 
                 pub const m_flTimeStartOrientationChange: usize = 0x870; // GameTime_t
                 pub const m_flTimeToBlendToNewOrientation: usize = 0x874; // float32
                 pub const m_flDurationBlendToNewOrientationRan: usize = 0x878; // float32
@@ -8381,8 +8379,8 @@ pub mod cs2_dumper {
                 pub const m_OnIn: usize = 0x8E8; // CEntityIOOutput
                 pub const m_OnOut: usize = 0x910; // CEntityIOOutput
                 pub const m_nState: usize = 0x938; // int32
-                pub const m_hConstraint: usize = 0x93C; // CEntityHandle
-                pub const m_hConstraintParent: usize = 0x940; // CEntityHandle
+                pub const m_hConstraint: usize = 0x93C; // 
+                pub const m_hConstraintParent: usize = 0x940; // 
                 pub const m_bForceNpcExclude: usize = 0x944; // bool
                 pub const m_sGlowEntity: usize = 0x948; // CUtlSymbolLarge
                 pub const m_glowEntity: usize = 0x950; // CHandle<CBaseModelEntity>
@@ -8418,7 +8416,7 @@ pub mod cs2_dumper {
                 pub const m_OnMaxCount_3: usize = 0x6E8; // CEntityIOOutput
                 pub const m_OnFactor_3: usize = 0x710; // CEntityOutputTemplate<float32>
                 pub const m_OnMinPlayerDist_3: usize = 0x738; // CEntityOutputTemplate<float32>
-                pub const m_hSource: usize = 0x760; // CEntityHandle
+                pub const m_hSource: usize = 0x760; // 
                 pub const m_iszSourceEntityName: usize = 0x768; // CUtlSymbolLarge
                 pub const m_flDistanceMax: usize = 0x770; // float32
                 pub const m_bDisabled: usize = 0x774; // bool
@@ -8732,7 +8730,7 @@ pub mod cs2_dumper {
                 pub const m_vocalizeTimer: usize = 0x1000; // CountdownTimer
                 pub const m_flWhenZombified: usize = 0x1018; // GameTime_t
                 pub const m_jumpedThisFrame: usize = 0x101C; // bool
-                pub const m_leader: usize = 0x1020; // CHandle<CCSPlayerPawn>
+                pub const m_leader: usize = 0x1020; // 
                 pub const m_reuseTimer: usize = 0x1038; // CountdownTimer
                 pub const m_hasBeenUsed: usize = 0x1050; // bool
                 pub const m_jumpTimer: usize = 0x1058; // CountdownTimer
@@ -8872,7 +8870,7 @@ pub mod cs2_dumper {
                 pub const m_hSequence: usize = 0x8; // HSequence
                 pub const m_flPrevCycle: usize = 0xC; // float32
                 pub const m_flCycle: usize = 0x10; // float32
-                pub const m_flWeight: usize = 0x14; // CNetworkedQuantizedFloat
+                pub const m_flWeight: usize = 0x14; // 
                 pub const m_bSequenceChangeNetworked: usize = 0x1C; // bool
                 pub const m_bDiscontinuity: usize = 0x1D; // bool
                 pub const m_flPrevCycleFromDiscontinuity: usize = 0x20; // float32
@@ -9057,7 +9055,7 @@ pub mod cs2_dumper {
                 pub const m_flDefuseLength: usize = 0xD3C; // float32
                 pub const m_flDefuseCountDown: usize = 0xD40; // GameTime_t
                 pub const m_bBombDefused: usize = 0xD44; // bool
-                pub const m_hBombDefuser: usize = 0xD48; // CHandle<CCSPlayerPawn>
+                pub const m_hBombDefuser: usize = 0xD48; // 
                 pub const m_hControlPanel: usize = 0xD4C; // CHandle<CBaseEntity>
                 pub const m_iProgressBarTime: usize = 0xD50; // int32
                 pub const m_bVoiceAlertFired: usize = 0xD54; // bool
@@ -9350,7 +9348,7 @@ pub mod cs2_dumper {
                 pub const m_nCost: usize = 0x34; // int32
                 pub const m_nPrevArmor: usize = 0x38; // int32
                 pub const m_bPrevHelmet: usize = 0x3C; // bool
-                pub const m_hItem: usize = 0x40; // CEntityHandle
+                pub const m_hItem: usize = 0x40; // 
             }
             // Parent: CCSWeaponBaseGun
             // Field count: 0
@@ -9924,7 +9922,7 @@ pub mod cs2_dumper {
                 pub const m_flInMax: usize = 0x4E4; // float32
                 pub const m_OutColor1: usize = 0x4E8; // Color
                 pub const m_OutColor2: usize = 0x4EC; // Color
-                pub const m_OutValue: usize = 0x4F0; // CEntityOutputTemplate<Color>
+                pub const m_OutValue: usize = 0x4F0; // 
             }
             // Parent: CPointEntity
             // Field count: 5
@@ -10152,7 +10150,7 @@ pub mod cs2_dumper {
             pub mod CBumpMineProjectile {
             }
             // Parent: CBasePlayerController
-            // Field count: 89
+            // Field count: 90
             //
             // Metadata:
             // MNetworkUserGroupProxy
@@ -10229,6 +10227,7 @@ pub mod cs2_dumper {
                 pub const m_bJustBecameSpectator: usize = 0x7CF; // bool
                 pub const m_bSwitchTeamsOnNextRoundReset: usize = 0x7D0; // bool
                 pub const m_bRemoveAllItemsOnNextRoundReset: usize = 0x7D1; // bool
+                pub const m_flLastJoinTeamTime: usize = 0x7D4; // GameTime_t
                 pub const m_szClan: usize = 0x7D8; // CUtlSymbolLarge
                 pub const m_szClanName: usize = 0x7E0; // char[32]
                 pub const m_iCoachingTeam: usize = 0x800; // int32
@@ -10259,10 +10258,10 @@ pub mod cs2_dumper {
                 pub const m_bHasBeenControlledByPlayerThisRound: usize = 0x88A; // bool
                 pub const m_nBotsControlledThisRound: usize = 0x88C; // int32
                 pub const m_bCanControlObservedBot: usize = 0x890; // bool
-                pub const m_hPlayerPawn: usize = 0x894; // CHandle<CCSPlayerPawn>
+                pub const m_hPlayerPawn: usize = 0x894; // 
                 pub const m_hObserverPawn: usize = 0x898; // CHandle<CCSObserverPawn>
                 pub const m_DesiredObserverMode: usize = 0x89C; // int32
-                pub const m_hDesiredObserverTarget: usize = 0x8A0; // CEntityHandle
+                pub const m_hDesiredObserverTarget: usize = 0x8A0; // 
                 pub const m_bPawnIsAlive: usize = 0x8A4; // bool
                 pub const m_iPawnHealth: usize = 0x8A8; // uint32
                 pub const m_iPawnArmor: usize = 0x8AC; // int32
@@ -11029,7 +11028,7 @@ pub mod cs2_dumper {
                 pub const m_wiggleTimer: usize = 0x2CE0; // CountdownTimer
                 pub const m_isAdjusted: usize = 0x2CFC; // bool
                 pub const m_bHandsHaveBeenCut: usize = 0x2CFD; // bool
-                pub const m_hHostageGrabber: usize = 0x2D00; // CHandle<CCSPlayerPawn>
+                pub const m_hHostageGrabber: usize = 0x2D00; // 
                 pub const m_fLastGrabTime: usize = 0x2D04; // GameTime_t
                 pub const m_vecPositionWhenStartedDroppingToGround: usize = 0x2D08; // Vector
                 pub const m_vecGrabbedPos: usize = 0x2D14; // Vector
@@ -11251,7 +11250,7 @@ pub mod cs2_dumper {
             // NetworkVarNames: qAngle (QAngle)
             // NetworkVarNames: nIndex (uint32)
             pub mod ViewAngleServerChange_t {
-                pub const nType: usize = 0x30; // FixAngleSet_t
+                pub const nType: usize = 0x30; // 
                 pub const qAngle: usize = 0x34; // QAngle
                 pub const nIndex: usize = 0x40; // uint32
             }

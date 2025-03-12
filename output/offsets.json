@@ -1,26 +1,26 @@
 {
   "client.dll": {
-    "dwCSGOInput": 27644480,
-    "dwEntityList": 27202664,
-    "dwGameEntitySystem": 28359864,
-    "dwGameEntitySystem_highestEntityIndex": 5408,
-    "dwGameRules": 27586088,
-    "dwGlobalVars": 25463248,
-    "dwGlowManager": 27583848,
-    "dwLocalPlayerController": 27529104,
-    "dwLocalPlayerPawn": 25513208,
-    "dwPlantedC4": 27627152,
-    "dwPrediction": 25512848,
-    "dwSensitivity": 27589448,
+    "dwCSGOInput": 27973328,
+    "dwEntityList": 27490864,
+    "dwGameEntitySystem": 28698520,
+    "dwGameEntitySystem_highestEntityIndex": 8432,
+    "dwGameRules": 27912272,
+    "dwGlobalVars": 25689232,
+    "dwGlowManager": 27912304,
+    "dwLocalPlayerController": 27824320,
+    "dwLocalPlayerPawn": 25739056,
+    "dwPlantedC4": 27953680,
+    "dwPrediction": 25738672,
+    "dwSensitivity": 27917896,
     "dwSensitivity_sensitivity": 64,
-    "dwViewAngles": 27645456,
-    "dwViewMatrix": 27604240,
-    "dwViewRender": 27606304,
-    "dwWeaponC4": 27215256
+    "dwViewAngles": 27974304,
+    "dwViewMatrix": 27932688,
+    "dwViewRender": 27934752,
+    "dwWeaponC4": 27507888
   },
   "engine2.dll": {
-    "dwBuildNumber": 5446628,
-    "dwNetworkGameClient": 5442784,
+    "dwBuildNumber": 5508068,
+    "dwNetworkGameClient": 5504224,
     "dwNetworkGameClient_clientTickCount": 872,
     "dwNetworkGameClient_deltaTick": 636,
     "dwNetworkGameClient_isBackgroundMap": 2626631,
@@ -28,18 +28,18 @@
     "dwNetworkGameClient_maxClients": 568,
     "dwNetworkGameClient_serverTickCount": 876,
     "dwNetworkGameClient_signOnState": 552,
-    "dwWindowHeight": 6373588,
-    "dwWindowWidth": 6373584
+    "dwWindowHeight": 6436124,
+    "dwWindowWidth": 6436120
   },
   "inputsystem.dll": {
     "dwInputSystem": 231392
   },
   "matchmaking.dll": {
-    "dwGameTypes": 1720752,
+    "dwGameTypes": 1716624,
     "dwGameTypes_mapName": 288
   },
   "soundsystem.dll": {
-    "dwSoundSystem": 3778016,
+    "dwSoundSystem": 3806704,
     "dwSoundSystem_engineViewData": 124
   }
 }

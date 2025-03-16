@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-12 03:17:08.877032100 UTC
+// 2025-03-16 06:23:43.279581400 UTC
 
 #pragma once
 
@@ -49,7 +49,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nCubeMapPrecomputedHandshake = 0x6C; // int32
                 constexpr std::ptrdiff_t m_nLightProbeVolumePrecomputedHandshake = 0x70; // int32
                 constexpr std::ptrdiff_t m_renderableModel = 0x78; // CStrongHandle<InfoForResourceTypeCModel>
-                constexpr std::ptrdiff_t m_renderable = 0x80; // 
+                constexpr std::ptrdiff_t m_renderable = 0x80; // CStrongHandle<InfoForResourceTypeCRenderMesh>
             }
             // Parent: None
             // Field count: 3
@@ -70,7 +70,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nSubSceneObject = 0x4; // uint32
                 constexpr std::ptrdiff_t m_nDrawCallIndex = 0x8; // uint32
                 constexpr std::ptrdiff_t m_nAdditionalMeshDrawPrimitiveFlags = 0xC; // MeshDrawPrimitiveFlags_t
-                constexpr std::ptrdiff_t m_extraBufferBinding = 0x10; // CRenderBufferBinding
+                constexpr std::ptrdiff_t m_extraBufferBinding = 0x10; // 
             }
             // Parent: None
             // Field count: 3

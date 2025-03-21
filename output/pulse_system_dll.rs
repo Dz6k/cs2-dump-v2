@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-16 06:23:43.279581400 UTC
+// 2025-03-21 17:39:18.058766400 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -697,7 +697,7 @@ pub mod cs2_dumper {
             pub mod CPulseGraphExecutionHistory {
                 pub const m_nInstanceID: usize = 0x0; // PulseGraphInstanceID_t
                 pub const m_strFileName: usize = 0x8; // CUtlString
-                pub const m_vecHistory: usize = 0x10; // CUtlVector<PulseGraphExecutionHistoryEntry_t*>
+                pub const m_vecHistory: usize = 0x10; // 
                 pub const m_mapCellDesc: usize = 0x28; // CUtlOrderedMap<PulseDocNodeID_t,PulseGraphExecutionHistoryNodeDesc_t*>
                 pub const m_mapCursorDesc: usize = 0x50; // CUtlOrderedMap<PulseCursorID_t,PulseGraphExecutionHistoryCursorDesc_t*>
             }

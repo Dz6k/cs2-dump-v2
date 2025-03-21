@@ -3391,6 +3391,7 @@ inline struct C_CSGameRulesOffsets {
 	DWORD m_vMinimapMaxs;
 	DWORD m_MinimapVerticalSectionHeights;
 	DWORD m_bSpawnedTerrorHuntHeavy;
+	DWORD m_ullLocalMatchID;
 	DWORD m_nEndMatchMapGroupVoteTypes;
 	DWORD m_nEndMatchMapGroupVoteOptions;
 	DWORD m_nEndMatchMapVoteWinner;
@@ -6591,6 +6592,7 @@ inline struct CCSPlayerControllerOffsets {
 	DWORD m_iDraftIndex;
 	DWORD m_msQueuedModeDisconnectionTimestamp;
 	DWORD m_uiAbandonRecordedReason;
+	DWORD m_eNetworkDisconnectionReason;
 	DWORD m_bCannotBeKicked;
 	DWORD m_bEverFullyConnected;
 	DWORD m_bAbandonAllowsSurrender;
@@ -15066,6 +15068,7 @@ inline struct CCSGameRulesOffsets {
 	DWORD m_vMinimapMaxs;
 	DWORD m_MinimapVerticalSectionHeights;
 	DWORD m_bSpawnedTerrorHuntHeavy;
+	DWORD m_ullLocalMatchID;
 	DWORD m_nEndMatchMapGroupVoteTypes;
 	DWORD m_nEndMatchMapGroupVoteOptions;
 	DWORD m_nEndMatchMapVoteWinner;

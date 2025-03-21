@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-16 06:23:43.279581400 UTC
+// 2025-03-21 17:39:18.058766400 UTC
 
 #pragma once
 
@@ -690,7 +690,7 @@ namespace cs2_dumper {
             namespace CPulseGraphExecutionHistory {
                 constexpr std::ptrdiff_t m_nInstanceID = 0x0; // PulseGraphInstanceID_t
                 constexpr std::ptrdiff_t m_strFileName = 0x8; // CUtlString
-                constexpr std::ptrdiff_t m_vecHistory = 0x10; // CUtlVector<PulseGraphExecutionHistoryEntry_t*>
+                constexpr std::ptrdiff_t m_vecHistory = 0x10; // 
                 constexpr std::ptrdiff_t m_mapCellDesc = 0x28; // CUtlOrderedMap<PulseDocNodeID_t,PulseGraphExecutionHistoryNodeDesc_t*>
                 constexpr std::ptrdiff_t m_mapCursorDesc = 0x50; // CUtlOrderedMap<PulseCursorID_t,PulseGraphExecutionHistoryCursorDesc_t*>
             }

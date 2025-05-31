@@ -3387,7 +3387,6 @@ C_CSGameRules.m_iMatchStats_PlayersAlive_CT = findOffsetByName(j, "C_CSGameRules
 C_CSGameRules.m_iMatchStats_PlayersAlive_T = findOffsetByName(j, "C_CSGameRules", "m_iMatchStats_PlayersAlive_T");
 C_CSGameRules.m_TeamRespawnWaveTimes = findOffsetByName(j, "C_CSGameRules", "m_TeamRespawnWaveTimes");
 C_CSGameRules.m_flNextRespawnWave = findOffsetByName(j, "C_CSGameRules", "m_flNextRespawnWave");
-C_CSGameRules.m_nServerQuestID = findOffsetByName(j, "C_CSGameRules", "m_nServerQuestID");
 C_CSGameRules.m_vMinimapMins = findOffsetByName(j, "C_CSGameRules", "m_vMinimapMins");
 C_CSGameRules.m_vMinimapMaxs = findOffsetByName(j, "C_CSGameRules", "m_vMinimapMaxs");
 C_CSGameRules.m_MinimapVerticalSectionHeights = findOffsetByName(j, "C_CSGameRules", "m_MinimapVerticalSectionHeights");
@@ -5299,10 +5298,6 @@ C_HandleTest.m_bSendHandle = findOffsetByName(j, "C_HandleTest", "m_bSendHandle"
 // C_EnvWindClientside Offsets
 C_EnvWindClientside.m_EnvWindShared = findOffsetByName(j, "C_EnvWindClientside", "m_EnvWindShared");
 
-// Atribuições para C_WeaponShield
-// C_WeaponShield Offsets
-C_WeaponShield.m_flDisplayHealth = findOffsetByName(j, "C_WeaponShield", "m_flDisplayHealth");
-
 // Atribuições para C_PointClientUIWorldTextPanel
 // C_PointClientUIWorldTextPanel Offsets
 C_PointClientUIWorldTextPanel.m_messageText = findOffsetByName(j, "C_PointClientUIWorldTextPanel", "m_messageText");
@@ -5859,11 +5854,6 @@ CCSPlayer_BuyServices.m_vecSellbackPurchaseEntries = findOffsetByName(j, "CCSPla
 // C_WeaponTaser Offsets
 C_WeaponTaser.m_fFireTime = findOffsetByName(j, "C_WeaponTaser", "m_fFireTime");
 C_WeaponTaser.m_nLastAttackTick = findOffsetByName(j, "C_WeaponTaser", "m_nLastAttackTick");
-
-// Atribuições para C_Fists
-// C_Fists Offsets
-C_Fists.m_bPlayingUninterruptableAct = findOffsetByName(j, "C_Fists", "m_bPlayingUninterruptableAct");
-C_Fists.m_nUninterruptableActivity = findOffsetByName(j, "C_Fists", "m_nUninterruptableActivity");
 
 // Atribuições para CInfoDynamicShadowHintBox
 // CInfoDynamicShadowHintBox Offsets
@@ -6569,6 +6559,7 @@ CCSPlayerController.m_pActionTrackingServices = findOffsetByName(j, "CCSPlayerCo
 CCSPlayerController.m_pDamageServices = findOffsetByName(j, "CCSPlayerController", "m_pDamageServices");
 CCSPlayerController.m_iPing = findOffsetByName(j, "CCSPlayerController", "m_iPing");
 CCSPlayerController.m_bHasCommunicationAbuseMute = findOffsetByName(j, "CCSPlayerController", "m_bHasCommunicationAbuseMute");
+CCSPlayerController.m_uiCommunicationMuteFlags = findOffsetByName(j, "CCSPlayerController", "m_uiCommunicationMuteFlags");
 CCSPlayerController.m_szCrosshairCodes = findOffsetByName(j, "CCSPlayerController", "m_szCrosshairCodes");
 CCSPlayerController.m_iPendingTeamNum = findOffsetByName(j, "CCSPlayerController", "m_iPendingTeamNum");
 CCSPlayerController.m_flForceTeamTime = findOffsetByName(j, "CCSPlayerController", "m_flForceTeamTime");
@@ -6588,6 +6579,7 @@ CCSPlayerController.m_iCompetitiveRankingPredicted_Loss = findOffsetByName(j, "C
 CCSPlayerController.m_iCompetitiveRankingPredicted_Tie = findOffsetByName(j, "CCSPlayerController", "m_iCompetitiveRankingPredicted_Tie");
 CCSPlayerController.m_nEndMatchNextMapVote = findOffsetByName(j, "CCSPlayerController", "m_nEndMatchNextMapVote");
 CCSPlayerController.m_unActiveQuestId = findOffsetByName(j, "CCSPlayerController", "m_unActiveQuestId");
+CCSPlayerController.m_rtActiveMissionPeriod = findOffsetByName(j, "CCSPlayerController", "m_rtActiveMissionPeriod");
 CCSPlayerController.m_nQuestProgressReason = findOffsetByName(j, "CCSPlayerController", "m_nQuestProgressReason");
 CCSPlayerController.m_unPlayerTvControlFlags = findOffsetByName(j, "CCSPlayerController", "m_unPlayerTvControlFlags");
 CCSPlayerController.m_iDraftIndex = findOffsetByName(j, "CCSPlayerController", "m_iDraftIndex");
@@ -7351,6 +7343,7 @@ steamclient64_dll.SteamClient018 = findOffsetByName(j, "steamclient64_dll", "Ste
 steamclient64_dll.SteamClient019 = findOffsetByName(j, "steamclient64_dll", "SteamClient019");
 steamclient64_dll.SteamClient020 = findOffsetByName(j, "steamclient64_dll", "SteamClient020");
 steamclient64_dll.SteamClient021 = findOffsetByName(j, "steamclient64_dll", "SteamClient021");
+steamclient64_dll.SteamClient022 = findOffsetByName(j, "steamclient64_dll", "SteamClient022");
 steamclient64_dll.p2pvoice002 = findOffsetByName(j, "steamclient64_dll", "p2pvoice002");
 steamclient64_dll.p2pvoicesingleton002 = findOffsetByName(j, "steamclient64_dll", "p2pvoicesingleton002");
 
@@ -12181,16 +12174,6 @@ CDynamicProp.m_nGlowRangeMin = findOffsetByName(j, "CDynamicProp", "m_nGlowRange
 CDynamicProp.m_glowColor = findOffsetByName(j, "CDynamicProp", "m_glowColor");
 CDynamicProp.m_nGlowTeam = findOffsetByName(j, "CDynamicProp", "m_nGlowTeam");
 
-// Atribuições para CFists
-// CFists Offsets
-CFists.m_bPlayingUninterruptableAct = findOffsetByName(j, "CFists", "m_bPlayingUninterruptableAct");
-CFists.m_nUninterruptableActivity = findOffsetByName(j, "CFists", "m_nUninterruptableActivity");
-CFists.m_bRestorePrevWep = findOffsetByName(j, "CFists", "m_bRestorePrevWep");
-CFists.m_hWeaponBeforePrevious = findOffsetByName(j, "CFists", "m_hWeaponBeforePrevious");
-CFists.m_hWeaponPrevious = findOffsetByName(j, "CFists", "m_hWeaponPrevious");
-CFists.m_bDelayedHardPunchIncoming = findOffsetByName(j, "CFists", "m_bDelayedHardPunchIncoming");
-CFists.m_bDestroyAfterTaunt = findOffsetByName(j, "CFists", "m_bDestroyAfterTaunt");
-
 // Atribuições para CTriggerRemove
 // CTriggerRemove Offsets
 CTriggerRemove.m_OnRemove = findOffsetByName(j, "CTriggerRemove", "m_OnRemove");
@@ -13464,12 +13447,6 @@ CPhysicsProp.m_strItemClass = findOffsetByName(j, "CPhysicsProp", "m_strItemClas
 CPhysicsProp.m_nItemCount = findOffsetByName(j, "CPhysicsProp", "m_nItemCount");
 CPhysicsProp.m_bRemovableForAmmoBalancing = findOffsetByName(j, "CPhysicsProp", "m_bRemovableForAmmoBalancing");
 CPhysicsProp.m_bAwake = findOffsetByName(j, "CPhysicsProp", "m_bAwake");
-
-// Atribuições para CSensorGrenadeProjectile
-// CSensorGrenadeProjectile Offsets
-CSensorGrenadeProjectile.m_fExpireTime = findOffsetByName(j, "CSensorGrenadeProjectile", "m_fExpireTime");
-CSensorGrenadeProjectile.m_fNextDetectPlayerSound = findOffsetByName(j, "CSensorGrenadeProjectile", "m_fNextDetectPlayerSound");
-CSensorGrenadeProjectile.m_hDisplayGrenade = findOffsetByName(j, "CSensorGrenadeProjectile", "m_hDisplayGrenade");
 
 // Atribuições para CTriggerSndSosOpvar
 // CTriggerSndSosOpvar Offsets
@@ -14765,7 +14742,6 @@ CCSWeaponBase.m_bPlayerAmmoStockOnPickup = findOffsetByName(j, "CCSWeaponBase", 
 CCSWeaponBase.m_bRequireUseToTouch = findOffsetByName(j, "CCSWeaponBase", "m_bRequireUseToTouch");
 CCSWeaponBase.m_iState = findOffsetByName(j, "CCSWeaponBase", "m_iState");
 CCSWeaponBase.m_flLastTimeInAir = findOffsetByName(j, "CCSWeaponBase", "m_flLastTimeInAir");
-CCSWeaponBase.m_flLastDeployTime = findOffsetByName(j, "CCSWeaponBase", "m_flLastDeployTime");
 CCSWeaponBase.m_nLastEmptySoundCmdNum = findOffsetByName(j, "CCSWeaponBase", "m_nLastEmptySoundCmdNum");
 CCSWeaponBase.m_nViewModelIndex = findOffsetByName(j, "CCSWeaponBase", "m_nViewModelIndex");
 CCSWeaponBase.m_bReloadsWithClips = findOffsetByName(j, "CCSWeaponBase", "m_bReloadsWithClips");
@@ -15064,7 +15040,6 @@ CCSGameRules.m_iMatchStats_PlayersAlive_CT = findOffsetByName(j, "CCSGameRules",
 CCSGameRules.m_iMatchStats_PlayersAlive_T = findOffsetByName(j, "CCSGameRules", "m_iMatchStats_PlayersAlive_T");
 CCSGameRules.m_TeamRespawnWaveTimes = findOffsetByName(j, "CCSGameRules", "m_TeamRespawnWaveTimes");
 CCSGameRules.m_flNextRespawnWave = findOffsetByName(j, "CCSGameRules", "m_flNextRespawnWave");
-CCSGameRules.m_nServerQuestID = findOffsetByName(j, "CCSGameRules", "m_nServerQuestID");
 CCSGameRules.m_vMinimapMins = findOffsetByName(j, "CCSGameRules", "m_vMinimapMins");
 CCSGameRules.m_vMinimapMaxs = findOffsetByName(j, "CCSGameRules", "m_vMinimapMaxs");
 CCSGameRules.m_MinimapVerticalSectionHeights = findOffsetByName(j, "CCSGameRules", "m_MinimapVerticalSectionHeights");
@@ -15542,12 +15517,6 @@ CLogicNPCCounter.m_flDefaultDist_3 = findOffsetByName(j, "CLogicNPCCounter", "m_
 // Atribuições para CCSGOViewModel
 // CCSGOViewModel Offsets
 CCSGOViewModel.m_bShouldIgnoreOffsetAndAccuracy = findOffsetByName(j, "CCSGOViewModel", "m_bShouldIgnoreOffsetAndAccuracy");
-
-// Atribuições para CWeaponShield
-// CWeaponShield Offsets
-CWeaponShield.m_flBulletDamageAbsorbed = findOffsetByName(j, "CWeaponShield", "m_flBulletDamageAbsorbed");
-CWeaponShield.m_flLastBulletHitSoundTime = findOffsetByName(j, "CWeaponShield", "m_flLastBulletHitSoundTime");
-CWeaponShield.m_flDisplayHealth = findOffsetByName(j, "CWeaponShield", "m_flDisplayHealth");
 
 // Atribuições para CBlood
 // CBlood Offsets

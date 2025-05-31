@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-21 17:39:18.058766400 UTC
+// 2025-05-31 17:45:58.486562900 UTC
 
 #pragma once
 
@@ -180,7 +180,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace PostProcessingBloomParameters_t {
-                constexpr std::ptrdiff_t m_blendMode = 0x0; // 
+                constexpr std::ptrdiff_t m_blendMode = 0x0; // BloomBlendMode_t
                 constexpr std::ptrdiff_t m_flBloomStrength = 0x4; // float32
                 constexpr std::ptrdiff_t m_flScreenBloomStrength = 0x8; // float32
                 constexpr std::ptrdiff_t m_flBlurBloomStrength = 0xC; // float32

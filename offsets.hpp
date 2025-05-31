@@ -3386,7 +3386,6 @@ inline struct C_CSGameRulesOffsets {
 	DWORD m_iMatchStats_PlayersAlive_T;
 	DWORD m_TeamRespawnWaveTimes;
 	DWORD m_flNextRespawnWave;
-	DWORD m_nServerQuestID;
 	DWORD m_vMinimapMins;
 	DWORD m_vMinimapMaxs;
 	DWORD m_MinimapVerticalSectionHeights;
@@ -5299,10 +5298,6 @@ inline struct C_EnvWindClientsideOffsets {
 	DWORD m_EnvWindShared;
 } C_EnvWindClientside;
 
-inline struct C_WeaponShieldOffsets {
-	DWORD m_flDisplayHealth;
-} C_WeaponShield;
-
 inline struct C_PointClientUIWorldTextPanelOffsets {
 	DWORD m_messageText;
 } C_PointClientUIWorldTextPanel;
@@ -5859,11 +5854,6 @@ inline struct C_WeaponTaserOffsets {
 	DWORD m_fFireTime;
 	DWORD m_nLastAttackTick;
 } C_WeaponTaser;
-
-inline struct C_FistsOffsets {
-	DWORD m_bPlayingUninterruptableAct;
-	DWORD m_nUninterruptableActivity;
-} C_Fists;
 
 inline struct CInfoDynamicShadowHintBoxOffsets {
 	DWORD m_vBoxMins;
@@ -6568,6 +6558,7 @@ inline struct CCSPlayerControllerOffsets {
 	DWORD m_pDamageServices;
 	DWORD m_iPing;
 	DWORD m_bHasCommunicationAbuseMute;
+	DWORD m_uiCommunicationMuteFlags;
 	DWORD m_szCrosshairCodes;
 	DWORD m_iPendingTeamNum;
 	DWORD m_flForceTeamTime;
@@ -6587,6 +6578,7 @@ inline struct CCSPlayerControllerOffsets {
 	DWORD m_iCompetitiveRankingPredicted_Tie;
 	DWORD m_nEndMatchNextMapVote;
 	DWORD m_unActiveQuestId;
+	DWORD m_rtActiveMissionPeriod;
 	DWORD m_nQuestProgressReason;
 	DWORD m_unPlayerTvControlFlags;
 	DWORD m_iDraftIndex;
@@ -7350,6 +7342,7 @@ inline struct steamclient64_dllOffsets {
 	DWORD SteamClient019;
 	DWORD SteamClient020;
 	DWORD SteamClient021;
+	DWORD SteamClient022;
 	DWORD p2pvoice002;
 	DWORD p2pvoicesingleton002;
 } steamclient64_dll;
@@ -12181,16 +12174,6 @@ inline struct CDynamicPropOffsets {
 	DWORD m_nGlowTeam;
 } CDynamicProp;
 
-inline struct CFistsOffsets {
-	DWORD m_bPlayingUninterruptableAct;
-	DWORD m_nUninterruptableActivity;
-	DWORD m_bRestorePrevWep;
-	DWORD m_hWeaponBeforePrevious;
-	DWORD m_hWeaponPrevious;
-	DWORD m_bDelayedHardPunchIncoming;
-	DWORD m_bDestroyAfterTaunt;
-} CFists;
-
 inline struct CTriggerRemoveOffsets {
 	DWORD m_OnRemove;
 } CTriggerRemove;
@@ -13464,12 +13447,6 @@ inline struct CPhysicsPropOffsets {
 	DWORD m_bRemovableForAmmoBalancing;
 	DWORD m_bAwake;
 } CPhysicsProp;
-
-inline struct CSensorGrenadeProjectileOffsets {
-	DWORD m_fExpireTime;
-	DWORD m_fNextDetectPlayerSound;
-	DWORD m_hDisplayGrenade;
-} CSensorGrenadeProjectile;
 
 inline struct CTriggerSndSosOpvarOffsets {
 	DWORD m_hTouchingPlayers;
@@ -14764,7 +14741,6 @@ inline struct CCSWeaponBaseOffsets {
 	DWORD m_bRequireUseToTouch;
 	DWORD m_iState;
 	DWORD m_flLastTimeInAir;
-	DWORD m_flLastDeployTime;
 	DWORD m_nLastEmptySoundCmdNum;
 	DWORD m_nViewModelIndex;
 	DWORD m_bReloadsWithClips;
@@ -15063,7 +15039,6 @@ inline struct CCSGameRulesOffsets {
 	DWORD m_iMatchStats_PlayersAlive_T;
 	DWORD m_TeamRespawnWaveTimes;
 	DWORD m_flNextRespawnWave;
-	DWORD m_nServerQuestID;
 	DWORD m_vMinimapMins;
 	DWORD m_vMinimapMaxs;
 	DWORD m_MinimapVerticalSectionHeights;
@@ -15542,12 +15517,6 @@ inline struct CLogicNPCCounterOffsets {
 inline struct CCSGOViewModelOffsets {
 	DWORD m_bShouldIgnoreOffsetAndAccuracy;
 } CCSGOViewModel;
-
-inline struct CWeaponShieldOffsets {
-	DWORD m_flBulletDamageAbsorbed;
-	DWORD m_flLastBulletHitSoundTime;
-	DWORD m_flDisplayHealth;
-} CWeaponShield;
 
 inline struct CBloodOffsets {
 	DWORD m_vecSprayAngles;

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-21 17:39:18.058766400 UTC
+// 2025-05-31 17:45:58.486562900 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: materialsystem2.dll
@@ -175,7 +175,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class PostProcessingBloomParameters_t {
-            public const nint m_blendMode = 0x0; // 
+            public const nint m_blendMode = 0x0; // BloomBlendMode_t
             public const nint m_flBloomStrength = 0x4; // float32
             public const nint m_flScreenBloomStrength = 0x8; // float32
             public const nint m_flBlurBloomStrength = 0xC; // float32
